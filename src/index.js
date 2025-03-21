@@ -4,7 +4,7 @@ function generatePoem(event){
     new Typewriter("#poem", {
         strings: "roses are red",
         autoStart: true,
-        delay: 1,
+        delay: 20,
 
     })
 }
