@@ -6,7 +6,7 @@ function generatePoem(event){
         autoStart: true,
         delay: 20,
 
-    })
+    });
 }
 
 let poemFormElement = document.querySelector("poem-generator-form");
