@@ -7,24 +7,30 @@
         <title>Ai poem generator</title>
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="src/style.css">
 
     </Head>
     <body>
+        <div class="container">
+            <header>
         <h1>Welcome to the AI Poem generator</h1>
+            </header>
+            <main>
         <form>
             <input type="text" placeholder="enter your topic" 
-            autofocus required autocomplete = "off" id="author"/>
-            <input type="submit" />
+            autofocus required autocomplete = "off"  class="topic" id="author"/>
+            <input type="submit"  class="submit-button"/>
         </form>
-        <div>roses are red
+        <div class="poem">roses are red
             <br/>
             violets are blue
         </div>
+            </main>
         <footer>This project is coded by <a href="https://github.com/Bea-manu/" target="_blank">Beatrice Shipurwa</a>
         is
     <a href="https://github.com/Bea-manu/Shecodes.Poem-generator" target="_blank">open-sourced on GitHub</a>
 and is hosted on <a href="https://incomparable-bombolone-c2765e.netlify.app/" target="_blank">Netlify</a></footer>
+        </div>
 <script src="src/index.js"></script>    
 </body>
 </html>
