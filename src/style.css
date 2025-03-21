@@ -16,6 +16,10 @@ h1{
     color: #272044;
 }
 
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
 form {
     padding: 30px;
     background-color: white;
@@ -35,20 +39,26 @@ form {
     line-height: 20px;
     color: #272044;
 }
-.submit-button{
+.submit-button {
     margin-left: 10px;
     background: #885df1;
     color: white;
     border: none;
     width: 150px;
-    font-size: 10px;
+    font-size: 16px;
     padding: 14px 24px;
+    border-radius: 50px;
 }
-.poem{
+.poem {
     font-size: 16px;
     background-color: #fff;
     padding: 20px;
     line-height: 2;
     border-left: 3px solid #885df1;
     box-shadow: 0px 4px 30px 0px rgba(39,33,66,0.3);
+}
+footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
 }
