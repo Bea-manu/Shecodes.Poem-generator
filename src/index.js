@@ -9,5 +9,5 @@ function generatePoem(event){
     });
 }
 
-let poemElement = document.querySelector("poem-generator-form");
-poemElement.addEventListener("submit", generatePoem);
+let authorElement = document.querySelector("poem-generator-form");
+authorElement.addEventListener("submit", generatePoem);
