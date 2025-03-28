@@ -1,7 +1,7 @@
 function displayPoem(response){
 
     new Typewriter("#poem", {
-        strings: response.data.generated_text,
+        strings: response.data.answer,
         autoStart: true,
         delay: 1,
         cursor: "",
