@@ -23,8 +23,8 @@ function generatePoem(event){
      console.log(`context: ${context}`);
      console.log("generate poem");
      console.log(`prompt: ${prompt}`);
-     
+
     axios.get(apiUrl).then(displayPoem);}
 
-let poemFormElement = document.querySelector("poem-generator-form");
-poemFormElement.addEventListener("submit", generatePoem);
+let poemElement = document.querySelector("poem-generator-form");
+poemElement.addEventListener("submit", generatePoem);
