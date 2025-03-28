@@ -5,7 +5,8 @@ function displayPoem(response){
         autoStart: true,
         delay: 1,
         cursor: "",
-        loop: true
+        wrapperClassName: "poem",
+        loop: false
     });
 }
 function generatePoem(event){
