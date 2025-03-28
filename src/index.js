@@ -28,5 +28,5 @@ peomElement.innerHTML = `<div class="generating"> Generating a love poem ${topic
 
     axios.get(apiUrl).then(displayPoem);}
 
-let poemElement = document.querySelector("poem-generator-form");
-poemElement.addEventListener("submit", generatePoem);
+let poemGeneratorFormElement = document.querySelector("#poem-generator-form");
+poemGeneratorFormElement.addEventListener("submit", generatePoem);
