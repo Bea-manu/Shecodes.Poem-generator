@@ -20,7 +20,10 @@ function generatePoem(event){
     let peomElement = document.querySelector("#poem");
     peomElement.classList.remove("hide");
     peomElement.innerHTML = `<div class="generating"> Generating a love poem ${topicInput.value}</div>`;
-    
+     console.log(`context: ${context}`);
+     console.log("generate poem");
+     console.log(`prompt: ${prompt}`);
+     
     axios.get(apiUrl).then(displayPoem);}
 
 let poemFormElement = document.querySelector("poem-generator-form");
