@@ -14,7 +14,7 @@ function generatePoem(event){
 
     let topicInput = document.querySelector("#author");
     let context = "You are famous poet Your mission is to generate a 4 line poem in basic HTML and separate each line with a <br />. Make sure to follow the user instructions. Do not include a title to the poem. Sign the poem with 'SheCodes AI' inside a <strong> element at the end of the poem and NOT at the beginning";
-    let prompt = `topic: generate a simple love poem ${topicInput.value}`;
+    let prompt = `author: generate a simple love poem ${topicInput.value}`;
     let apiKey = "8f0ab40o57b12e2t3b934b3b4137cfbc";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
     
