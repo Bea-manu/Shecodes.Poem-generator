@@ -1,7 +1,7 @@
 function displayPoem(response){
 
     new Typewriter("#poem", {
-        strings: "roses are red",
+        strings: "generate poem",
         autoStart: true,
         delay: 1,
         cursor: "",
@@ -17,10 +17,10 @@ function generatePoem(event){
     let apiKey = "8f0ab40o57b12e2t3b934b3b4137cfbc";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
     
-    let peomElement = document.querySelector("#poem");
-    peomElement.classList.remove("hide");
+    let poemElement = document.querySelector("#poem");
+    poemElement.classList.remove("hide");
     
-peomElement.innerHTML = `<div class="generating"> Generating a love poem ${topicInput.value}</div>`;
+poemElement.innerHTML = `<div class="generating"> Generating a love poem ${topicInput.value}</div>`;
 
      console.log(`context: ${context}`);
      console.log("generate poem");
