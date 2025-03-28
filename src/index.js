@@ -4,9 +4,7 @@ function displayPoem(response){
         strings: response.data.answer,
         autoStart: true,
         delay: 1,
-        cursor: "",
-        wrapperClassName: "poem",
-        
+        cursor: "", 
     });
 }
 function generatePoem(event){
